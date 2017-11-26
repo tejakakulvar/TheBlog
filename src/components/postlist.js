@@ -13,7 +13,9 @@ class PostList extends React.Component{
     return _.map(this.props.listofposts, listofposts => {
       return (
         <li className="list-group-item" key={listofposts.id}>
-          {listofposts.title}
+          <Link to={`/posts/${listofposts.id}`}>
+            {listofposts.title}
+          </Link>
         </li>
       );
     });
@@ -37,7 +39,7 @@ class PostList extends React.Component{
 
 function mapStateToProps(state){
   return{
-    listofposts: state.listofposts
+    listofposts: state.posts
   };
 }
 

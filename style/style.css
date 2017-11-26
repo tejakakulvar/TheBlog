@@ -1,3 +1,23 @@
 form a {
   margin-left: 10px;
 }
+
+.detailpost a  {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.detailpost button  {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.detailpost h3{
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.detailpost h6{
+  color: blue;
+  margin-bottom: 20px;
+}

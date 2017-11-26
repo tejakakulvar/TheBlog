@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 import listofpostsreducer from './FetchListOfPostsReducer'
 
 const rootReducer = combineReducers({
-  listofposts: listofpostsreducer,
+  posts: listofpostsreducer,
   form: formReducer
 });
 
